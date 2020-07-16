@@ -6,8 +6,6 @@
   background-size: cover;
   margin: 0;
   padding: 0;
-
-
 }
 
 /* Make the header and footer a different color from the background */
@@ -15,6 +13,7 @@
   background-image: url("https://i.redd.it/7jg0lh5i8y951.jpg");
   border: 2px solid black;
 }
+
 .footer{
 background-image: url("https://i.redd.it/7jg0lh5i8y951.jpg");
 padding-top: 25px;
@@ -23,7 +22,6 @@ border: 2px solid black;
 position: absolute;
 bottom: 0;
 width: 100%;
-
 }
 
 /* Align the h1 containing your name in the center of the header*/
@@ -47,31 +45,36 @@ width: 100%;
 object-fit: cover;
 display: inline-block;
 }
+
 div.interests{
   text-align: center;
   width: 100%
 }
+
 .radiohead{
   border: 2px solid black;
   display: inline-block;
 }
+
 .basketball{
 border-top: 2px solid black;
 border-bottom: 2px solid black;
 display: inline-block;
 }
+
 .blakeMills{
   border: 2px solid black;
   display: inline-block;
 }
+
 /* Change the font-family of your list */
 .funFacts{
   text-align: center;
   font-family: monospace;
   padding-top: 25px;
 }
-.list{
 
+.list{
   font-family: monospace;
   list-style-position: inside;
   text-align: center;
