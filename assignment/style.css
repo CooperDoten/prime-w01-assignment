@@ -1,5 +1,5 @@
 /* Give your page a fun background color */
-.body {
+body {
   background-image: url("https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   background-repeat: no-repeat;
   background-position: center;
@@ -9,12 +9,12 @@
 }
 
 /* Make the header and footer a different color from the background */
-.header{
+header{
   background-image: url("https://i.redd.it/7jg0lh5i8y951.jpg");
   border: 2px solid black;
 }
 
-.footer{
+footer{
 background-image: url("https://i.redd.it/7jg0lh5i8y951.jpg");
 padding-top: 25px;
 padding-bottom: 25px;
@@ -25,14 +25,14 @@ width: 100%;
 }
 
 /* Align the h1 containing your name in the center of the header*/
-.H1{
+H1{
     text-align: center;
       font-size: 45px;
       color: #E7E7E7;
       font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 /* Make your p tag a different color and italic */
-.quote{
+p{
   color: #E7E7E7;
   font-style: italic;
   font-size: 25px;
@@ -40,41 +40,22 @@ width: 100%;
 }
 
 /* Put a border around your image */
-.image{
+img{
   border: 2px solid black;
 object-fit: cover;
 display: inline-block;
 }
-
-div.interests{
+.images{
   text-align: center;
-  width: 100%
 }
-
-.radiohead{
-  border: 2px solid black;
-  display: inline-block;
-}
-
-.basketball{
-border-top: 2px solid black;
-border-bottom: 2px solid black;
-display: inline-block;
-}
-
-.blakeMills{
-  border: 2px solid black;
-  display: inline-block;
-}
-
 /* Change the font-family of your list */
-.funFacts{
+h2{
   text-align: center;
   font-family: monospace;
   padding-top: 25px;
 }
 
-.list{
+ul{
   font-family: monospace;
   list-style-position: inside;
   text-align: center;
